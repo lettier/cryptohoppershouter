@@ -2,7 +2,7 @@
 
 # CryptoHopper and CryptoShouter
 
-CryptoHopper takes a specified out folder/directory, encrypts the files contained within (with a .comp extension), and then moves these files to a specified encrypted folder. Files without the extension .comp and/or files older than 30 days are removed from the specified out folder. Needs (Python-GNUPG)[http://code.google.com/p/python-gnupg/].  
+CryptoHopper takes a specified out folder/directory, encrypts the files contained within (with a .comp extension), and then moves these files to a specified encrypted folder. Files without the extension .comp and/or files older than 30 days are removed from the specified out folder. Needs [Python-GNUPG](http://code.google.com/p/python-gnupg/).  
 
 CryptoShouter takes a specified encrypted folder and then emails the files with a .comp extension contained within the encrypted folder to specified email addresses. After emailing, it moves the files from the encrypted folder to a specified trash folder. Files older than 30 days in the trash folder are removed.  
 
