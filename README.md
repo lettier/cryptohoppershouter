@@ -11,7 +11,7 @@ Both CryptoHopper and CryptoShouter can be run as cron jobs.
 Files and directories located at:  
 
 - ./source/out
-- ./source/encrypted/
+- ./source/encrypted
 - ./source/trash
 
 are provided for testing/convenience. Feel free to specify your own directories on the command line.
